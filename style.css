@@ -1,0 +1,26 @@
+.img {
+  display: none;
+}
+
+p {
+    font-weight: 500;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+h1 {
+    font-weight: 800;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+canvas {
+    margin: 0px;
+}
+
+input {
+    font-weight: 500;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
