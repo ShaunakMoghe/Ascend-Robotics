@@ -1,0 +1,161 @@
+/* Apply Inter font and background gradient animation */
+body {
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(45deg, #000, #00153E); /* Dark blue gradient */
+    background-size: 400% 400%;
+    animation: gradientAnimation 10s ease infinite;
+    color: white; /* Change font color to white */
+    text-align: center; /* Center-align text */
+    margin: 0; /* Remove default margin */
+    padding: 20px; /* Add some padding */
+}
+
+/* Background gradient animation */
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+#inputBox1, #inputBox2, #inputBox3 {
+	padding-left:15px;
+}
+#outPutBox {
+    padding-left:15px;
+    
+}
+
+select[name="force-units"] {
+    width: 225px;
+    height: 50px; /* Adjust the height to make them the same size */
+    border: 2px solid white;
+    border-radius: 1000px; /* Half of the height to make it circular */
+    background-color: transparent;
+    color: white;
+    padding: 5px;
+    margin: 5px;  
+    padding-left:12.5px;
+}
+
+/* Increase the padding of the d-units dropdown */
+select[name="d-units"] {
+    width: 225px;
+    height: 50px; /* Adjust the height to make them the same size */
+    border: 2px solid white;
+    border-radius: 1000px; /* Half of the height to make it circular */
+    background-color: transparent;
+    color: white;
+    padding: 5px;
+    margin: 5px;  
+    padding-left:15px;
+}
+
+/* Increase the height and padding of the angle-units dropdown */
+select[name="angle-units"] {
+    width: 225px;
+    height: 50px; /* Adjust the height to make them the same size */
+    border: 2px solid white;
+    border-radius: 1000px; /* Half of the height to make it circular */
+    background-color: transparent;
+    color: white;
+    padding: 5px;
+    margin: 5px;  
+    padding-left:15px;
+}
+
+select[name="torque-units"] {
+    width: 225px;
+    height: 50px; /* Adjust the height to make them the same size */
+    border: 2px solid white;
+    border-radius: 1000px; /* Half of the height to make it circular */
+    background-color: transparent;
+    color: white;
+    padding: 5px;
+    margin: 5px;  
+    padding-left:15px;
+}
+
+
+
+
+input, select {
+    width: 200px;
+    height: 35px; /* Adjust the height to make them the same size */
+    border: 2px solid white;
+    border-radius: 1000px; /* Half of the height to make it circular */
+    background-color: transparent;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+}
+
+
+.dropdown {
+    position: relative;
+    appearance: none; /* Remove the default dropdown arrow */
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: 32px 32px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: 2px solid white;
+    border-radius: 1000px;
+    background-color: transparent;
+    color: white;
+    height: 35px;
+    width: 200px;
+    padding: 5px;
+    margin: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    font-weight: bold; /* Apply bold font */
+}
+
+.dropdown::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    width: 10px;
+    height: 10px;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="white" d="M7 10l5 5 5-5z"/></svg>');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+/* Fix for invisible dropdown options */
+select option {
+    background-color: black;
+}
+
+/* Style the output label */
+.output-label {
+    color: white;
+    margin-bottom: 0px;
+    display: inline-block;
+}
+
+/* Style the output box */
+.output-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center-align output box */
+    margin-top: 10px;
+}
+
+.output-box {
+    border: 2px solid white; /* Add a white border */
+    border-radius: 10px;
+    padding: 1000px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
