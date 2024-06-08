@@ -1,6 +1,7 @@
 # Table of contents
 
 * [🚀 Introduction](README.md)
+* [🚀 Introduction](<README (1).md>)
 
 ## VEX Robotics
 
@@ -68,3 +69,7 @@
   * [📸 96504 Gallery](other/extra-stuff/96504-gallery.md)
   * [⛑️ VEX Team Resources (Over Under)](other/extra-stuff/vex-team-resources-over-under.md)
   * [🏎️ Driving Simulator](other/extra-stuff/driving-simulator.md)
+
+***
+
+* [Page 1](page-1.md)
