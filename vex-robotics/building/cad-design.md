@@ -14,13 +14,20 @@ Let's construct an (unbiased) table showing the advantages and disadvantages of 
 | Reduces the time it takes to build                             |                      |
 | Adds an element of professionalism to the engineering notebook |                      |
 
-OnShape is the recommended software for CAD in VEX due to its ease of use and VEX part libraries, but other softwares work just as well.
+## Choosing a CAD software
 
-{% embed url="https://www.onshape.com/en/" %}
+OnShape is the recommended software for CAD in VEX due to its ease of use and VEX part libraries, but other software work just as well. The table below shows the most common CAD software used for VEX Robotics.
 
-Here's a good set of video tutorial for CAD in OnShape:
+| CAD Software       | OnShape                                                                                                                                               | Fusion 360                                                                                                                                                                                                                                                                                                          | Inventor                                                                                                                                                                                                                                                                                                                                                    |
+| ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Benefits           | <p>Easy to learn<br><br>Can run on any hardware (even chromebooks!)<br><br>Free (Click <a href="https://www.onshape.com/en/">here </a>for access)</p> | <p>Cloud based -- good for collaboration<br><br>User friendly UI<br><br>Can run on less powerful hardware compared to Inventor<br><br>Limited stress simulation tools<br></p><p>Wide support options<br></p><p>Free (click <a href="https://www.autodesk.com/products/fusion-360/personal">here </a>for access)</p> | <p>Specialized time-saving tools<br><br>User friendly UI<br><br>Requires somewhat powerful hardware<br><br>Customizable stress simulation tools<br><br>Almost everything is customizable</p><p><br>Free for students with an education license (click <a href="https://www.autodesk.com/education/edu-software/overview">here </a>for education access)</p> |
+| Drawbacks          | <p>Lack of traditional CAD capabilities such as constraints and simulation<br><br>Limited uses</p>                                                    | <p>Lack of customizability<br><br>Time inefficient</p>                                                                                                                                                                                                                                                              | <p><br><br>Limited support options<br><br>Single user &#x26; local processing (although you can save files on a cloud drive so that multiple users may access them)<br></p>                                                                                                                                                                                 |
+| Introduction Video | [OnShape video](https://www.youtube.com/watch?v=8rkEL2l4pvM\&list=PL58YBuL9CL7KdaFquOuCasoTzGwnjHFUN\&index=1)                                        | [Fusion 360 Video](https://www.youtube.com/watch?v=d9Gw0OK1uzY)                                                                                                                                                                                                                                                     | [Inventor video](https://www.youtube.com/watch?v=KptpuqgLQk8)                                                                                                                                                                                                                                                                                               |
+| VEX Libraries      | Built into OnShape (check video)                                                                                                                      | [Fusion Library](https://github.com/vindou/VEX-CAD-Fusion-360-Library/releases/tag/latest)                                                                                                                                                                                                                          | [Inventor Library](https://github.com/VEX-CAD/VEX-CAD-Inventor/releases/tag/v1.4.0)                                                                                                                                                                                                                                                                         |
 
-[https://www.youtube.com/watch?v=8rkEL2l4pvM\&list=PL58YBuL9CL7KdaFquOuCasoTzGwnjHFUN\&index=1](https://www.youtube.com/watch?v=8rkEL2l4pvM\&list=PL58YBuL9CL7KdaFquOuCasoTzGwnjHFUN\&index=1)
+
+
+
 
 ## How to use CAD
 
@@ -43,3 +50,9 @@ Here's some specific tips for VEX Robotics:
 * Use **2-3 cross-braces** on the drivetrain that go across the entire length of the robot, preferably as far apart as possible. This prevents the chassis from bending over time (not good).
 * Use **standoffs** everywhere! Seriously, standoffs are amazing for bracing, and come in handy when you're trying to mount a mechanism to the robot or brace something.
 * **Study** how other successful robots mount mechanisms to the robot. There are myriads of reveal videos and robot explanations on YouTube; even looking at robots from previous years can give you ideas on how to design the structure of your robot. <mark style="color:purple;">**Imitate**</mark>, don't copy.
+
+## Join the VEX CAD Discord Server!
+
+The VEX CAD Discord server is a public community server for VEX teams. \
+Server invite: [https://discord.gg/BKV3DJm](https://discord.gg/BKV3DJm)&#x20;
+
