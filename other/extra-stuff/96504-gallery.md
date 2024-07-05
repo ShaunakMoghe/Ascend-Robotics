@@ -54,3 +54,23 @@ description: Fun pictures...
 
 </div>
 
+<div>
+
+<figure><img src="../../.gitbook/assets/IMG_2452 (2) (1).jpg" alt="" width="375"><figcaption><p>uh-oh pt2</p></figcaption></figure>
+
+ 
+
+<figure><img src="../../.gitbook/assets/Triball Elevaiton (1).jpg" alt="" width="375"><figcaption><p>Unexpected Elevation.</p></figcaption></figure>
+
+</div>
+
+<div>
+
+<figure><img src="../../.gitbook/assets/blame hailstorm.jpg" alt="" width="375"><figcaption><p>"Blame 9364H"</p></figcaption></figure>
+
+ 
+
+<figure><img src="../../.gitbook/assets/DAVID.jpg" alt="" width="375"><figcaption><p>His name is David.</p></figcaption></figure>
+
+</div>
+
