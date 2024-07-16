@@ -4,15 +4,7 @@ description: Fun pictures...
 
 # 📸 96504 Gallery
 
-<div>
-
-<figure><img src="../../.gitbook/assets/IMG_0799.jpeg" alt="" width="375"><figcaption><p>String!</p></figcaption></figure>
-
- 
-
 <figure><img src="../../.gitbook/assets/IMG_0594.JPG" alt="" width="375"><figcaption><p>We don't talk about our Spin Up intake</p></figcaption></figure>
-
-</div>
 
 <div>
 
@@ -74,3 +66,6 @@ description: Fun pictures...
 
 </div>
 
+
+
+<figure><img src="../../.gitbook/assets/IMG_0302 (1).gif" alt="" width="423"><figcaption><p>Barrel Roll @ FRA (96504D)</p></figcaption></figure>
