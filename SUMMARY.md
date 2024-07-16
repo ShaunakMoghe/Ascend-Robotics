@@ -66,7 +66,7 @@
   * [😑 Stress Forces](other/physics/stress-forces.md)
 * [👾 Extra stuff](other/extra-stuff/README.md)
   * [📸 96504 Gallery](other/extra-stuff/96504-gallery.md)
-  * [⛑️ VEX Team Resources (Over Under)](other/extra-stuff/vex-team-resources-over-under.md)
+  * [⛑️ VEX Team Resources (High Stakes)](other/extra-stuff/vex-team-resources-high-stakes.md)
   * [🏎️ Driving Simulator](other/extra-stuff/driving-simulator.md)
 
 ***
