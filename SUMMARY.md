@@ -15,6 +15,7 @@
     * [🔥 450 RPM on 2.75"](vex-robotics/building/drive-trains/450-rpm-on-2.75.md)
   * [🏍️ Motors](vex-robotics/building/motors.md)
   * [🪨 Metal](vex-robotics/building/metal.md)
+  * [Plastic](vex-robotics/building/plastic.md)
   * [🎈 Pneumatics](vex-robotics/building/pneumatics.md)
   * [➕ Additional Mechanisms](vex-robotics/building/additional-mechanisms/README.md)
     * [🖨️ 3D Printing](vex-robotics/building/additional-mechanisms/3d-printing.md)
