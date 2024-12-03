@@ -52,15 +52,15 @@ When the new project opens up, you will see a couple folders:
 
 📁 **src** - where you will work 95% of the time, for c and c++ files
 
-**.gitignore** - used for telling GitHub what not to upload
+:file\_cabinet: **.gitignore** - used for telling GitHub what not to upload
 
-**common.mk** - don't touch, don't worry
+:file\_cabinet: **common.mk** - don't touch, don't worry
 
-**compile\_commands** - 99.999% of the time don't touch, don't worry
+:file\_cabinet: **compile\_commands** - 99.999% of the time don't touch, don't worry
 
-**Makefile** - useful if you want to make a library, don't touch, don't worry otherwise
+:file\_cabinet: **Makefile** - useful if you want to make a library, don't touch, don't worry otherwise
 
-**project.pros** - where to change the project name, description, slot on brain, and icon
+:file\_cabinet: **project.pros** - where to change the project name, description, slot on brain, and icon
 
 
 
@@ -185,7 +185,13 @@ void opcontrol() {}
 
 In V5RC, you will use a number of different devices, such as motors, sensors, and pneumatics. I will go through the basics, but as always, use the documentation, which is linked for each device.&#x20;
 
-<table><thead><tr><th width="189">Device</th><th>Example</th></tr></thead><tbody><tr><td><a href="https://pros.cs.purdue.edu/v5/api/cpp/motors.html#constructor-s">Motor</a></td><td> </td></tr><tr><td><a href="https://pros.cs.purdue.edu/v5/api/cpp/misc.html#pros-controller">Controller</a></td><td></td></tr><tr><td><a href="https://pros.cs.purdue.edu/v5/api/cpp/optical.html">Optical Sensor</a></td><td></td></tr><tr><td><a href="https://pros.cs.purdue.edu/v5/api/cpp/distance.html">Distance Sensor</a></td><td></td></tr><tr><td><a href="https://pros.cs.purdue.edu/v5/api/cpp/imu.html">Inertial Sensor</a></td><td></td></tr><tr><td><a href="https://pros.cs.purdue.edu/v5/api/cpp/adi.html#pros-adidigitalout">Pneumatics</a></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="189">Device</th><th>Example</th></tr></thead><tbody><tr><td><a href="https://pros.cs.purdue.edu/v5/pros-4/group__cpp-motors.html#ga1e122f68ae9831149e1f271e49a2503b">Motor</a></td><td><pre><code><strong>Motor intake(-13, v5::MotorGears::green);
+</strong></code></pre></td></tr><tr><td><a href="https://pros.cs.purdue.edu/v5/pros-4/group__cpp-misc.html#ga652922e5c7390ce35a405959dda1d68a">Controller</a></td><td><pre><code><strong>Controller controller1(pros::E_CONTROLLER_MASTER);
+</strong></code></pre></td></tr><tr><td><a href="https://pros.cs.purdue.edu/v5/pros-4/group__cpp-optical.html#gaf3814072204ecc2ad420701c9bb03a95">Optical Sensor</a></td><td><pre><code><strong>Optical OPT(20);
+</strong></code></pre></td></tr><tr><td><a href="https://pros.cs.purdue.edu/v5/pros-4/group__cpp-distance.html#gacbdaad211add7384715740d88fda622b">Distance Sensor</a></td><td><pre><code>Distance DIST(18);
+</code></pre></td></tr><tr><td><a href="https://pros.cs.purdue.edu/v5/pros-4/group__cpp-imu.html#gac6f1a6d4484080397cb0c78eabea166b">Inertial Sensor</a></td><td><pre><code>IMU INR(18);
+</code></pre></td></tr><tr><td><a href="https://pros.cs.purdue.edu/v5/pros-4/group__cpp-adi.html#ga518bf7290ceecc89abfbc432f01a61f7">Pneumatics</a></td><td><pre><code>adi::DigitalOut clamp('A');
+</code></pre></td></tr></tbody></table>
 
 ```cpp
 /*****************************************
@@ -202,12 +208,12 @@ Controller controller1(CONTROLLER_MASTER);
 
 // you will have to determine whether each motor needs to be reversed or not
 // depending on the orientation of the motors on your robot
-Motor m1(1, E_MOTOR_GEAR_600, 0);
-Motor m2(2, E_MOTOR_GEAR_600, 0);
-Motor m3(3, E_MOTOR_GEAR_600, 0);
-Motor m4(4, E_MOTOR_GEAR_600, 0);
-Motor m5(5, E_MOTOR_GEAR_600, 0);
-Motor m6(6, E_MOTOR_GEAR_600, 0);
+Motor m1(1, v5::MotorGears::blue);
+Motor m2(-2, v5::MotorGears::blue); // this motor is reversed
+Motor m3(3, v5::MotorGears::blue);
+Motor m4(4, v5::MotorGears::blue);
+Motor m5(5, v5::MotorGears::blue);
+Motor m6(6, v5::MotorGears::blue);
 
 // you may or may not use these sensors on your robot, just delete what you dont need
 Optical opt1(7);
@@ -249,7 +255,7 @@ Under the initialize method, we need to do things like initialize the brain scre
 ```cpp
 void initialize() {
 	lcd::initialize(); // initializes the brain screen
-	OPT1.set_led_pwm(30); // sets the optical light to 3-%
+	OPT1.set_led_pwm(30); // sets the optical light to 30% brightness
 	Task autoPuncherTask(autoPuncher); // an example task that 
 					   // calls a separate method
 }
@@ -257,7 +263,7 @@ void initialize() {
 
 #### Autonomous
 
-This is where the autonomous routes will be called. This can be done using multiple versions of the program (easy) or create an auton selector (a little harder but recommended).&#x20;
+This is where the autonomous routes will be called. Individual routes can be called using multiple versions of the program (easy) or creating an auton selector (a little harder but recommended).&#x20;
 
 #### Opcontrol
 
