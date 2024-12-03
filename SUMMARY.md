@@ -24,7 +24,7 @@
     * [🏋️ Lifts](vex-robotics/building/additional-mechanisms/lifts.md)
 * [💻 Coding](vex-robotics/coding/README.md)
   * [⚖️ Choosing Your Coding Environment](vex-robotics/coding/choosing-your-coding-environment.md)
-  * [🔴 Vexcode Pro](vex-robotics/coding/vexcode-pro/README.md)
+  * [🔴 VEXCode Pro](vex-robotics/coding/vexcode-pro/README.md)
     * [🖥️ Getting Started](vex-robotics/coding/vexcode-pro/getting-started.md)
     * [🚗 Drive Code](vex-robotics/coding/vexcode-pro/drive-code.md)
     * [🚴 Coding Motors](vex-robotics/coding/vexcode-pro/coding-motors.md)
