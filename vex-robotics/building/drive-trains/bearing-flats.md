@@ -2,7 +2,7 @@
 
 It turns out that the square holes in vex metal pieces aren't a great fit for a rotating axle. Yes, they technically work, but the axle is highly unstable, and the friction is egregious.
 
-<figure><img src="../../../.gitbook/assets/image.png" alt="" width="175"><figcaption><p>Note the shape of the hole in the metal</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (14).png" alt="" width="175"><figcaption><p>Note the shape of the hole in the metal</p></figcaption></figure>
 
 The solution? Bearing flats! Bearing flats are essential for having low-friction drivetrains, and also for other mechanisms on the robot. They keep shafts aligned to the center of the hole, preventing it from touching the metal (which adds friction) or wobbling.
 

@@ -4,7 +4,7 @@ In this tutorial, we'll show you how to code additional mechanisms on the robot,
 
 First, add the motor to the devices list. In this example, our motor is named `Motor`
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-10-18 at 2.34.33 PM.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2023-10-18 at 2.34.33 PM.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Next create a function that spins the motor forwards at full voltage:
 

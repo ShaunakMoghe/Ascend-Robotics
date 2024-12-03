@@ -8,7 +8,7 @@ You _probably_ want the robot to move around. However, the robot doesn't just do
 
 We'll start off by adding the drive motors to the list of devices. In this example, we'll use a 6-motor drivetrain with the left and right motors plugged in to the following ports. Your port numbers can be different; all that matters is that the motors are named well and match up with the ports on the physical robot.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-09-20 at 7.53.39 AM.png" alt="" width="375"><figcaption><p>For a four-motor drive, just leave out Right3 and Left3</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2023-09-20 at 7.53.39 AM.png" alt="" width="375"><figcaption><p>For a four-motor drive, just leave out Right3 and Left3</p></figcaption></figure>
 
 Now, we can start coding. For the sake of clarity, we'll put all of our drive code in a C++ function. Here's the format for a function in C++:
 
@@ -20,7 +20,7 @@ void driveCode() {
 
 The first order of business is to get controller inputs. Make sure you have a controller listed in your devices menu:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-09-20 at 8.07.04 AM.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2023-09-20 at 8.07.04 AM.png" alt="" width="375"><figcaption></figcaption></figure>
 
 Now, we can get the **inputs** from the joysticks and **store** them in integer variables. The left joystick will control forwards and backwards motion in a straight line, so we'll store that value in a variable called `straight`. Next, we'll store the value for the right joystick in a variable called `turn`, since the right joystick turns the robot. Put the following code in the `driveCode()` function:
 

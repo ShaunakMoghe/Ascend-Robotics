@@ -35,7 +35,7 @@ If the robot barely moves, try increasing kP--this increases the motor power app
 
 Your goal should be the green line in the graph below, where the robot reached the setpoint (target) quickly and stays there. The graphs represent's the robot's current distance, compared to the target; this applies to both turn PIDs and drive PIDs.
 
-<figure><img src="../../../../../.gitbook/assets/image (1).png" alt="" width="506"><figcaption><p>Source: OscarLiang.com</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image (1) (1).png" alt="" width="506"><figcaption><p>Source: OscarLiang.com</p></figcaption></figure>
 
 If your robot acts like the orange line on the graph above, where the robot goes past the target and  reverses direction, consider adding in the kD term. As a starting point, set this term to 5 times the value of the kP term. Adding in the integral term (start at about 1/10th the value of kP) may also help.
 

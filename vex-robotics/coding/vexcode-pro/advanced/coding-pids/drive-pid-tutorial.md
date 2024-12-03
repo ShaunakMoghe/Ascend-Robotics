@@ -160,7 +160,7 @@ prevMotorPower = motorPower;
 prevError = error;
 ```
 
-That finishes up the code in the while loop. However, the motors may still be turning, even after the PID is done. To account for this, put this code <mark style="color:green;">**after the while loop but before the end of the**</mark><mark style="color:green;">** **</mark><mark style="color:green;">**`drivePID`**</mark><mark style="color:green;">** **</mark><mark style="color:green;">**function:**</mark>
+That finishes up the code in the while loop. However, the motors may still be turning, even after the PID is done. To account for this, put this code <mark style="color:green;">**after the while loop but before the end of the**</mark><mark style="color:green;">**&#x20;**</mark><mark style="color:green;">**`drivePID`**</mark><mark style="color:green;">**&#x20;**</mark><mark style="color:green;">**function:**</mark>
 
 ```cpp
 //stop the motors when the PID is done

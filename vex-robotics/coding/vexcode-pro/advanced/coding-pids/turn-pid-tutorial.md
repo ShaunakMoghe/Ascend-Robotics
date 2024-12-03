@@ -8,7 +8,7 @@ We'll assume you have already completed the Drive PID tutorial (you should). Thu
 
 Before we get started, let's set up the inertial sensor in your devices tab. We'll name ours "Inertial",
 
-<figure><img src="../../../../.gitbook/assets/Screenshot 2024-01-23 at 9.58.27 AM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/Screenshot 2024-01-23 at 9.58.27 AM.png" alt=""><figcaption></figcaption></figure>
 
 Next, make sure you calibrate your inertial sensor <mark style="color:green;">**in the main function**</mark> of the robot using this line of code. This line should run when the program starts--make sure the robot is stationary for the first few seconds, so the inertial sensor calibrates correctly.
 
@@ -154,7 +154,7 @@ prevMotorPower = motorPower;
 prevError = error;
 ```
 
-That finishes up the code in the while loop. However, the motors may still be turning, even after the PID is done. To account for this, put this code <mark style="color:green;">**after the while loop but before the end of the**</mark><mark style="color:green;">** **</mark><mark style="color:green;">**`turnPID`**</mark><mark style="color:green;">** **</mark><mark style="color:green;">**function:**</mark>
+That finishes up the code in the while loop. However, the motors may still be turning, even after the PID is done. To account for this, put this code <mark style="color:green;">**after the while loop but before the end of the**</mark><mark style="color:green;">**&#x20;**</mark><mark style="color:green;">**`turnPID`**</mark><mark style="color:green;">**&#x20;**</mark><mark style="color:green;">**function:**</mark>
 
 ```cpp
 //stop the motors when the PID is done

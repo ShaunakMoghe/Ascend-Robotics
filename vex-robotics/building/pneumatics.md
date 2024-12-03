@@ -22,8 +22,8 @@ Here's a simple pneumatic system. In summary, compressed air is stored in the ai
 
 For information on how to code the pneumatic system, check out this page:
 
-{% content-ref url="../coding/coding-pneumatics.md" %}
-[coding-pneumatics.md](../coding/coding-pneumatics.md)
+{% content-ref url="../coding/vexcode-pro/coding-pneumatics.md" %}
+[coding-pneumatics.md](../coding/vexcode-pro/coding-pneumatics.md)
 {% endcontent-ref %}
 
 ### Best Practices

@@ -4,7 +4,7 @@ Pneumatics can be intimidating at first, but the code for them is simple. In thi
 
 Start by setting up the pneumatic in VEXCode Pro. It's a 3-wire DigitalOut device:
 
-![](<../../.gitbook/assets/Screenshot 2023-09-20 at 4.53.52 PM.png>)--->![](<../../.gitbook/assets/Screenshot 2023-09-20 at 4.53.18 PM (1).png>)
+![](<../../../.gitbook/assets/Screenshot 2023-09-20 at 4.53.52 PM.png>)--->![](<../../../.gitbook/assets/Screenshot 2023-09-20 at 4.53.18 PM (1).png>)
 
 Now, we need to make a variable storing whether or not the pneumatic piston is current active or not. We'll use a boolean variable and set it to false by default. This variable should be defined outside of all functions, below the `#include "vex.h";` and `using namespace vex;` lines of code.
 

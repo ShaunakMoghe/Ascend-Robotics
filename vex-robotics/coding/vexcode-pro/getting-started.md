@@ -4,6 +4,8 @@ We'll show you how to get started coding the robot using VEXCode Pro and C++
 
 First, download [VEXCode Pro](https://www.vexrobotics.com/vexcode/pro-v5) and install it. Then, open the program and create a new project.
 
+_<mark style="color:purple;">(Note: VEXCode Pro is easier to use than PROS, but is approaching EOL, so more experienced users may choose to use PROS for both the continued updates and additional community software support)</mark>_
+
 ### Start Coding
 
 Let's write a simple C++ program to set up the robot:

@@ -6,23 +6,11 @@ description: Structural stuffs
 
 The basic structure of every VEX robot uses metal. Specifically, aluminum C-channels are used to construct the chassis and other mechanisms on the robot. These C-channels are relatively lightweight, yet still are very resistant to deformation under stress.
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt="" width="375"><figcaption><p>Standard 1x2x1x25 C-channel</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt="" width="375"><figcaption><p>Standard 1x2x1x25 C-channel</p></figcaption></figure>
 
 Here's a few  other types of metal structure available:
 
-<div>
-
-<figure><img src="../../.gitbook/assets/image (7).png" alt="" width="188"><figcaption><p>5-wide C-channel</p></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/image (9).png" alt="" width="188"><figcaption><p>2x2 L-channel</p></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/image (8).png" alt="" width="188"><figcaption><p>3-wide C-channel</p></figcaption></figure>
-
-</div>
+<div><figure><img src="../../.gitbook/assets/image (7) (1).png" alt="" width="188"><figcaption><p>5-wide C-channel</p></figcaption></figure> <figure><img src="../../.gitbook/assets/image (9) (1).png" alt="" width="188"><figcaption><p>2x2 L-channel</p></figcaption></figure> <figure><img src="../../.gitbook/assets/image (8) (1).png" alt="" width="188"><figcaption><p>3-wide C-channel</p></figcaption></figure></div>
 
 
 

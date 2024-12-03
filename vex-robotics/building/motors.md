@@ -14,7 +14,7 @@ Specifications:
 * Torque: 2.1 N⋅m
 * Weight: 0.342 lbs or 155 grams
 
-![](<../../.gitbook/assets/image (11).png>)
+![](<../../.gitbook/assets/image (11) (1).png>)
 
 ## 5.5W motors
 
@@ -24,7 +24,7 @@ Specifications:
 * Torque:  1.3 N⋅m
 * Weight: 0.20 lbs or 91 grams
 
-![](<../../.gitbook/assets/image (12).png>)
+![](<../../.gitbook/assets/image (12) (1).png>)
 
 Each robot is allowed 88W of motor power total. Here's a table showing some possible combinations of motors that can be used on the robot:
 

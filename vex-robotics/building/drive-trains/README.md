@@ -8,7 +8,7 @@ Drive trains are not technically required, but nearly every robot has one. They 
 
 Here's the simplest possible drivetrain you can have:
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption><p>Simple tank drivetrain CAD</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>Simple tank drivetrain CAD</p></figcaption></figure>
 
 This tank drivetrain features at least 2 omniwheels on each side of the robot. Usually, 4 or 6 motors will power these omniwheels either directly or through gears. This drivetrain can turn in place and go forwards and backwards, but it cannot strafe side-to-side (which is usually not necessary).&#x20;
 
@@ -18,13 +18,13 @@ Here's another example of a more complex tank drive with 6 motors, 6 wheels, and
 
 Another type of drivetrain is the X-drive. This drive has more maneuverability, but reduced torque and pushing power relative to the standard tank drive.
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption><p>Photo credit: Team 1619Z</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>Photo credit: Team 1619Z</p></figcaption></figure>
 
 While the increased maneuverability does offer an advantage in niche scenarios, X-drives are very weak against defense by others teams. For example, out of the 20 teams that won their division during Spin Up Worlds (i.e. top 20 teams in the world), all 20 of them used a tank drive.
 
 There are another couple types of drivetrains, but these are not competitively viable in VEX Robotics.
 
-![](https://lh6.googleusercontent.com/fm7KAo3V9DicBPDrqN\_xbHWLRtWfoh4wiH7waIToToQDcGb6ryHB3jdOdp6oAt1pKwZ5z3vCIYHBY2SwosG3I9nkhqvuKYkkwSi39Bd7xR6ulI81RM0AzeTDDbFiZ2UPgucMLpqpMADL9BvzE87qxlY)![](<../../../.gitbook/assets/image (5).png>)
+![](https://lh6.googleusercontent.com/fm7KAo3V9DicBPDrqN_xbHWLRtWfoh4wiH7waIToToQDcGb6ryHB3jdOdp6oAt1pKwZ5z3vCIYHBY2SwosG3I9nkhqvuKYkkwSi39Bd7xR6ulI81RM0AzeTDDbFiZ2UPgucMLpqpMADL9BvzE87qxlY)![](<../../../.gitbook/assets/image (5) (1).png>)
 
 Overall, the recommended drivetrain for both new and experienced teams is the standard tank drive.
 

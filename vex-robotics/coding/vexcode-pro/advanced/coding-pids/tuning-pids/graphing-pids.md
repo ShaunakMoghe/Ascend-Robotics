@@ -4,7 +4,7 @@ Graphing PIDs can be helpful when tuning them; it gives you a good idea of how q
 
 In the graph below, the green line shows how far the robot is from the target point. The robot starts off far from the target point, but reaches it by the end of the graph. The orange line is the motor power, which initially increases sharply, but then decreases when the robot gets close to the target point so it doesn't overshoot.
 
-<figure><img src="../../../../../.gitbook/assets/IMG_5979.JPG" alt="" width="375"><figcaption><p>Here's our simple graph</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/IMG_5979.JPG" alt="" width="375"><figcaption><p>Here's our simple graph</p></figcaption></figure>
 
 First of all, make sure you include a few libraries at the top of the main file.
 
@@ -76,7 +76,7 @@ std::vector<float> powerHistory; //keep track of motor power over time
 int currentTime = 0; //keep track of time over time (wow!)
 ```
 
-Next, we'll update the history vectors with the current values, and then call the function. Put this code <mark style="color:green;">**in the PID function while loop, before the**</mark><mark style="color:green;">** **</mark><mark style="color:green;">**`wait(20, msec);`**</mark><mark style="color:green;">** **</mark><mark style="color:green;">**line**</mark>:
+Next, we'll update the history vectors with the current values, and then call the function. Put this code <mark style="color:green;">**in the PID function while loop, before the**</mark><mark style="color:green;">**&#x20;**</mark><mark style="color:green;">**`wait(20, msec);`**</mark><mark style="color:green;">**&#x20;**</mark><mark style="color:green;">**line**</mark>:
 
 ```cpp
 //update histories and current time

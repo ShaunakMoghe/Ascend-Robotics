@@ -18,7 +18,7 @@ These should go at the front of your notebook; they organize and propel the rest
 
 The title page should prominently feature the team name, number, and logo (if you have one). This allows the judges to easily identify which notebook is yours and makes it more memorable when they are distributing awards.
 
-<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption><p>Simple title page</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (14) (1).png" alt=""><figcaption><p>Simple title page</p></figcaption></figure>
 
 ### Table of contents
 

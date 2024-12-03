@@ -8,7 +8,7 @@ There are many programs that can be used to create Engineering Notebooks: Google
 
 Here's an example of a well-formatted notebook page. The green annotations highlight the good aspects of this notebook page
 
-<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption><p>Team 96504C's budgeting page. Some ideas adapted from 515R</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13) (1).png" alt=""><figcaption><p>Team 96504C's budgeting page. Some ideas adapted from 515R</p></figcaption></figure>
 
 Some of the important elements of **every** notebook page:
 
