@@ -1,5 +1,5 @@
 ---
-description: We'll use VEXcode Pro V5
+description: What separates the good teams from the great teams.
 ---
 
 # 💻 Coding
